@@ -96,8 +96,8 @@
 							<goal>generate</goal>
 						</goals>
 						<configuration>
-							<projectName>cucumber-jvm-example</projectName>
-							<outputDirectory>${project.build.directory}/site/cucumber-reports</outputDirectory>
+							<projectName>cucumber-java-skeleton</projectName>
+							<outputDirectory>${project.build.directory}/target/output</outputDirectory>
 							<cucumberOutput>${project.build.directory}/cucumber.json</cucumberOutput>
 							<enableFlashCharts>false</enableFlashCharts>
 							<skippedFails>true</skippedFails>
